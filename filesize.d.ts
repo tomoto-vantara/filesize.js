@@ -94,6 +94,10 @@ declare namespace Filesize {
          *  Enables unix style human readable output, e.g ls -lh, default is false
          */
         unix?: boolean;
+        /**
+         *  Uses Math.floor() for round
+         */
+        floor?: boolean;
     }
 
     interface Filesize {
