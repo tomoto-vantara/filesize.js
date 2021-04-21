@@ -95,9 +95,9 @@ declare namespace Filesize {
          */
         unix?: boolean;
         /**
-         *  Uses Math.floor() for round
+         * Rounding method, can be round, floor, or ceil, default is round
          */
-        floor?: boolean;
+        roundingMethod?: "round" | "floor" | "ceil";
     }
 
     interface Filesize {
